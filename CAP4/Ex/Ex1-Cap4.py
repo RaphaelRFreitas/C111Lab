@@ -20,7 +20,7 @@ onesList = np.reshape(onesMatrix, onesMatrix.size)
 print(f'Ones: {onesList}')
 
 #5
-x,y = input("Enter with the range of the matrix (ex: 1 2):").split()
+x,y = input("Enter with the range of the matrix (ex: 1 2): ").split()
 matrix = np.ones([int(x), int(y)])
 print(f'Matrix: {matrix}')
 if matrix.size % 2 == 0:
